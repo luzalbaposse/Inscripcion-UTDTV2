@@ -9,11 +9,9 @@
 usuario = ''
 clave = ''
 
-
 """ 
 	los datos horarios deben ser cargados como numeros y segun formato de
 	24 horas 
-
 	Ejemplo:
 		anio = 2020 
 		mes = 2 
@@ -22,41 +20,39 @@ clave = ''
 		minutos = 30
 """
 
-anio = 
-mes = 
-dia = 
-hora = 
-minutos = 
-
-
-"""
-	las materias deben ser cargadas con su respectiva comision dentro de una 
-	tupple, como se ve en el ejemplo.
-	
-	ACLARACIÓN: el nombre de las materia debe estar escrito igual que en 
-				sigedu.
-
-		materias = [('Expresión Oral y Escrita','2'),  
-					('Comercio Internacional','1'),
-					('Economía Matemática II','1'), 
-					('Historia del Pensamiento Económico','2'), 
-					('Econometría','1')]
-"""	
-
-
-materias = [('',''),
-	    ('',''),
-	    ('',''),
-	    ('','')]
+anio = 2022
+mes = 2
+dia = 20
+hora = 13
+minutos = 0
+segundos = 0
 
 """
 	cambiar el PATH (absolute path) del chromedriver, para no tener problemas
 	con los distintos interpretadores.
 	
 	Ejemplo:
-		chromedriverpath = users/usuario/inscripcion-utdt/chromedriver
+		chromedriverpath = 'users/usuario/inscripcion-utdt/chromedriver'
 """
 
 chromedriverpath = './chromedriver'
 
+"""
+	insertar los urls descriptos en README.md dentro de la lista urls, cada uno entre comillas y separados por comas.
+	
+	Ejemplo:
+		urls = ('https://sigedu.utdt.edu/utdt/alumnos/inscripcion_cursos.jsp?v_id_materia=17&v_n_curso=1788&v_anio=2021&grabar=1&v_qry_pagina=1',
+			'https://sigedu.utdt.edu/utdt/alumnos/inscripcion_cursos.jsp?v_id_materia=11&v_n_curso=2162&v_anio=2021&grabar=1&v_qry_pagina=1',
+			'https://sigedu.utdt.edu/utdt/alumnos/inscripcion_cursos.jsp?v_id_materia=7&v_n_curso=2140&v_anio=2021&grabar=1&v_qry_pagina=1',
+			'https://sigedu.utdt.edu/utdt/alumnos/inscripcion_cursos.jsp?v_id_materia=15&v_n_curso=2091&v_anio=2021&grabar=1&v_qry_pagina=1')
+"""
 
+urls = ('', '', '', '', '')
+
+"""
+	Si la variable esperar es True, el programa espera hasta la hora indicada para empezar la inscripcion. Si es False, empieza ni bien es ejecutado el programa.
+	La variable loops indica la cantidad de veces que el programa intenta inscribirse en cada materia.
+"""
+
+esperar = False
+loops = 10

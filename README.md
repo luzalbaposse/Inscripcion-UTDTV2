@@ -8,7 +8,7 @@ El programa requiere un package de Python llamada *Selenium* y una herramienta l
 
 ## Instrucciones
 
-1.   Obtener los URLs de las materias deseadas. Para obtener el url de una materia, alguien que ya tenga la inscripción habilitada (de un año mayor al tuyo o de otra carrera) debe hacer click derecho en el nombre de la materia y copiar el enlace.
+1.   Obtener los URLs de las materias deseadas. Para obtener el url de una materia, alguien que ya tenga la inscripción habilitada debe hacer click derecho en el nombre de la materia y copiar el enlace.
 
      ![](https://user-images.githubusercontent.com/6855052/126911816-c3f600dd-3318-499a-9bca-33fd5642f174.png)
 

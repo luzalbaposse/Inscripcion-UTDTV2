@@ -18,7 +18,6 @@ for url in urls:
 
 # CREAR UN BASH FILE QUE CORRE LOS SCRIPTS DE LAS MATERIAS EN SIMULTANEO
 def create_run(numfiles, filename):
-	ampersand = "&"
 	with open(filename,'a') as run:
 		for i in range(1, numfiles):
 			if i == (numfiles - 1):

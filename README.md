@@ -1,10 +1,10 @@
 # Inscripción UTDT
 
-Un programa de inscripción automática en SiGEdu.
+Un programa para inscripción automática en SiGEdu.
 
 ## Selenium y ChromeDriver
 
-El programa requiere un package de Python llamada *Selenium* y un ejecutable llamado *chromedriver*. Selenium se puede instalar usando el package manager *pip*, con el comando `pip install selenium` o con *conda*, y el comando `conda install -c conda-forge selenium `. ChromeDriver se puede descargar de la [página oficial](https://chromedriver.chromium.org/downloads). Se puede ubicar en el mismo directorio que el programa, o en el PATH del sistema operativo.
+El programa requiere un package de Python llamada *Selenium* y una herramienta llamada *ChromeDriver*. Selenium se puede instalar usando el package manager *pip*, con el comando `pip install selenium` o con *conda*, usando el comando `conda install -c conda-forge selenium `. ChromeDriver se puede descargar de la [página oficial](https://chromedriver.chromium.org/downloads). Se puede ubicar en el mismo directorio que el programa, o en el PATH del sistema operativo.
 
 ## Instrucciones
 
@@ -17,7 +17,6 @@ El programa requiere un package de Python llamada *Selenium* y un ejecutable lla
 3.   Ejecutar `generate.py`. Para hacer esto, abrir la Terminal (macOS) o Línea de Comando (Windows) y navegar al directorio dónde está el archivo, luego ejecutar el comando `python3 generate.py`.
 
 4.   Ejecutar `run.sh`. Para hacer esto, ejecutar el comando `bash run.sh`.
-
 ___
 ###### Authors:  
 ###### Alfonso Gauna - alfonsogauna@hotmail.com  

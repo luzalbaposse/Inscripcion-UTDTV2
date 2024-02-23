@@ -5,9 +5,9 @@
 		usuario = '45123789'
 		clave = '010101789'
 """
-
-usuario = ''
-clave = ''
+#Datos/Lu
+usuario = '45452268'
+clave = 'xc3rdHA8o'
 
 """ 
 	los datos horarios deben ser cargados como numeros y segun formato de
@@ -46,7 +46,12 @@ chromedriverpath = './chromedriver'
 			'https://sigedu.utdt.edu/utdt/alumnos/inscripcion_cursos.jsp?v_id_materia=7&v_n_curso=2140&v_anio=2021&grabar=1&v_qry_pagina=1',
 			'https://sigedu.utdt.edu/utdt/alumnos/inscripcion_cursos.jsp?v_id_materia=15&v_n_curso=2091&v_anio=2021&grabar=1&v_qry_pagina=1')
 """
-
+'''
+Microeconomía Sección 5
+Estadística Sección 2
+TD3 Sección 1
+Expresión Oral y Escrita Sección 16
+'''
 urls = ('', '', '', '', '')
 
 """

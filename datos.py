@@ -20,11 +20,11 @@ clave = ''
 		minutos = 30
 """
 
-anio = 2022
+anio = 2024
 mes = 2
-dia = 20
-hora = 13
-minutos = 0
+dia = 24
+hora = 14
+minutos = 30
 segundos = 0
 
 """

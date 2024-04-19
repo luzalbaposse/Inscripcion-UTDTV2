@@ -5,9 +5,8 @@
 		usuario = '45123789'
 		clave = '010101789'
 """
-#Datos/Lu
-usuario = '45452268'
-clave = 'xc3rdHA8o'
+usuario = ''
+clave = ''
 
 """ 
 	los datos horarios deben ser cargados como numeros y segun formato de
